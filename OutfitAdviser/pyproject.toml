@@ -1,7 +1,7 @@
 [project]
 name = "outfitadviser"
 version = "0.1.0"
-description = "This solution will save your time by planning outfits for you by referencing the pile of clothes you have"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
