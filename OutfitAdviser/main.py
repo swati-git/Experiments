@@ -1,11 +1,14 @@
 import gradio as gr
+from src.utils import initialize_storage    
+#from ..src.ui import ui
+from src.ui import create_app
 
-with gr.Blocks(title="Fashion Outfit Recommender") as app:
-    gr.Markdown("""
-    # 👔 Fashion Outfit Recommender
-    
-    Your personal AI stylist that helps you create perfect outfits from your wardrobe!
-    """)
+def main():
+   
+    initialize_storage()
+
+    app = create_app()
+    app.launch(theme=gr.themes.Soft())
 
 if __name__ == "__main__":
-    app.launch(theme=gr.themes.Monochrome())
+    main()
