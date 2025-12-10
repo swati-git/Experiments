@@ -1,4 +1,5 @@
 import gradio as gr
+from src.utils import process_new_items
 
 def create_add_items_tab():
     """Create the 'Add to Wardrobe' tab"""
@@ -25,3 +26,10 @@ def create_add_items_tab():
                     lines=15,
                     max_lines=20
                 )
+
+            
+    add_button.click(
+    fn=process_new_items,
+    inputs=[image_input, body_type_input],
+    outputs=add_output
+)
