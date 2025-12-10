@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "20251209_144903_077244",
+      "image_path": "digital_wardrobe/images/item_20251209_144903_077244.jpg",
+      "analysis": null,
+      "added_date": "2025-12-09T14:49:03.089179"
+    },
+    {
+      "id": "20251209_223942_298012",
+      "image_path": "digital_wardrobe/images/item_20251209_223942_298012.jpg",
+      "analysis": "Category: Top\nColor: White\nFabric: Cotton\nFormality: Casual\nStyle: Classic\nPattern: Solid\nEmbellishments: Buttons, chest pocket\nSeason: All-season\nDescription: A classic white long-sleeve button-down shirt made of cotton, featuring brown buttons and a single chest pocket, suitable for versatile styling.",
+      "added_date": "2025-12-09T22:39:50.944204"
+    }
+  ],
+  "user_preferences": {
+    "body_type": "Pear Shape"
+  }
+}
