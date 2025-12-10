@@ -1,5 +1,6 @@
 import gradio as gr
 from .add_items_tab import create_add_items_tab
+from .outfit_recommendation_tab import create_recommendation_tab
 
 def create_app():
     """Create the complete Gradio application"""
@@ -12,5 +13,5 @@ def create_app():
         
         with gr.Tabs():
             create_add_items_tab()
-    
+            create_recommendation_tab()
     return app
